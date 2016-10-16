@@ -1,0 +1,146 @@
+body {
+  padding-top: 97px;
+}
+section {
+  padding: 30px 0px;
+}
+.text-color {
+  color: #666d89;
+}
+.text-color-2{
+    color: #f2f2f2;
+}
+h2 {
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+.navbar-custom {
+  background: #2d303a;
+  padding: 20px 0px;
+  border-bottom: 7px solid #323746;
+}
+.navbar-brand span, .navbar a.active, .nav>li>a:hover {
+  color: #f06c64;
+  background-color: transparent;
+}
+.navbar-brand span{
+    font-size: 25px;
+}
+.nav>li>a:focus {
+  background-color: transparent;
+}
+.navbar a {
+  color: #fff;
+}
+ul.nav li a:after {
+  content: "";
+  display: inline-block;
+  border: 3px solid #494e62;
+  margin-left: 20px;
+  border-radius: 50%;
+}
+ul.nav li:last-child a:after {
+ border:none;
+}
+
+/*slider-show*/
+
+.carousel {
+  background-color: #f06c64;
+  padding: 30px 0px;
+}
+.carousel-control {
+  color: #ca4549;
+}
+.carousel-control.right, .carousel-control.left {
+  background-image: none;
+}
+.iphone{
+    padding-top: 110px;
+}
+/*service*/
+
+#service {
+  background-color: #f2f2f2;
+}
+
+/*portfolio*/
+
+#portfolio {
+  background-color: #2d303a;
+}
+.btn-case {
+  background-color: transparent;
+  color: #666d89;
+  border-color: #666d89;
+}
+.list-inline>li {
+  padding: 6px 13px;
+}
+.art-png{
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+#our-work .mix{
+	display: none;
+}
+
+/*about us*/
+h4{
+  font-weight: bold;
+}
+.user{
+  width: 100%;
+}
+.media-object{
+        width: 80px;
+    height: 80px;
+    border: 2px solid #666d89;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 78px;
+}
+.media:first-child {
+    margin-top: 30px;
+}
+.socail li{
+    padding: 5px;
+}
+
+.socail a { 
+    width: 50px;
+    height: 50px;
+    color: #666d89;
+    border:2px solid #666d89; 
+    text-align: center;
+    font-size: 25px;
+    line-height: 2em;
+     -webkit-border-radius:27px; 
+    text-decoration: none;
+}
+
+/*contact*/
+#contact{
+    background: #f06c64;
+}
+
+input[type="text"] , textarea.form-control{
+    background-color: transparent;
+    background: #df5e57;
+    border: 1px solid #f2f2f2;
+    
+}
+
+
+::-webkit-input-placeholder {
+   color: #f48c8f !important;
+}
+
+
+/*footer*/
+.footer{
+    background: #41363f;
+}
+.copyright{
+    line-height: 50px;
+}
