@@ -19,10 +19,11 @@ h2 {
   padding: 20px 0px;
   border-bottom: 7px solid #323746;
 }
-.navbar-brand span, .navbar a.active, .nav>li>a:hover {
+.navbar-brand span,ul.navbar-nav li.active a, .nav>li>a:hover {
   color: #f06c64;
   background-color: transparent;
 }
+
 .navbar-brand span{
     font-size: 25px;
 }
